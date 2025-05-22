@@ -6,10 +6,11 @@ import { Vegetables } from './models/vegetables.model';
 import { VegetableListComponent } from './vegetable-list/vegetable-list.component';
 import { CartProduct } from './models/cartproduct.model';
 import { DetailsComponent } from './details/details.component';
+import { CarrelloComponent } from './carrello/carrello.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, VegetableListComponent, DetailsComponent],
+  imports: [RouterOutlet, VegetableListComponent, DetailsComponent, CarrelloComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
