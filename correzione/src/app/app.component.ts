@@ -5,10 +5,11 @@ import { Observable } from 'rxjs';
 import { Vegetables } from './models/vegetables.model';
 import { VegetableListComponent } from './vegetable-list/vegetable-list.component';
 import { CartProduct } from './models/cartproduct.model';
+import { DetailsComponent } from './details/details.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, VegetableListComponent],
+  imports: [RouterOutlet, VegetableListComponent, DetailsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
